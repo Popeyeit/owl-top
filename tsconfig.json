@@ -16,6 +16,12 @@
     "isolatedModules": true,
     "jsx": "preserve"
   },
-  "include": ["next-env-custom.d.ts", "svg.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": [
+    "next-env-custom.d.ts",
+    "svg.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "__tests__/home.test.jsx"
+  ],
   "exclude": ["node_modules"]
 }
